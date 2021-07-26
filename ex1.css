@@ -1,0 +1,17 @@
+:root {
+    --sfondo: #9c4be7;
+    --palla: #ff981a;
+    --size: 200px;
+    --bordo: 50%;
+}
+
+body {
+    background-color: var(--sfondo);
+}
+
+#ball {
+    width: var(--size);
+    height: var(--size);
+    border-radius: var(--bordo);
+    background-color: var(--palla);
+}
